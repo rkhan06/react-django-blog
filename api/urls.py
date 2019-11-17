@@ -11,5 +11,3 @@ urlpatterns = [
          BlogCommentsView.as_view(), name="blog-comment-list"),
 
 ]
-
-urlpatterns = format_suffix_patterns(urlpatterns)
